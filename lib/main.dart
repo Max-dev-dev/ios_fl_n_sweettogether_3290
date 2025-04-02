@@ -34,8 +34,9 @@ class MainApp extends StatelessWidget {
           );
         },
         theme: ThemeData(
-          appBarTheme: const AppBarTheme(backgroundColor: Color(0xFFFF9EE1),),
-          scaffoldBackgroundColor: Color(0xFFFF9EE1),
+          appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
+          scaffoldBackgroundColor: Colors.transparent,
+          // Color(0xFFFF9EE1),
         ),
         home: SplashScreen(),
       ),
